@@ -1,5 +1,3 @@
-
-
 Welcome to my GitHub portfolio repository!  
 This repository powers my [personal website]( https://m-faizanomer2000.github.io/) — a central place to explore my academic, research, and professional journey. I’ll be updating it soon, so thanks for your patience!
 
@@ -7,7 +5,7 @@ This repository powers my [personal website]( https://m-faizanomer2000.github.io
 
 ## 👨‍💻 About Me
 
-I am **M. Faizan Omer**, an **MS Scholar** at **NUST MCS** specializing in **multimodality data saliency detection** and **object detection**.  
+I am **Muhammad. Faizan Omer**, an **MS Scholar** at **NUST MCS** specializing in Image processing and Computer vision with specific focus on **multimodality data, saliency detection** and **object detection**.  
 
 **Educational Background:**
 - **MS in Computer Science** (In progress) — National University of Sciences and Technology (NUST), MCS
@@ -42,11 +40,6 @@ I am **M. Faizan Omer**, an **MS Scholar** at **NUST MCS** specializing in **mul
 - **Others:** Git, FastAPI, Linux
 
 ---
-
-## 🌐 Portfolio Website
-
-This repository will serve as the source code for my portfolio website:  
-➡ **[https://YOUR_GITHUB_USERNAME.github.io]( https://m-faizanomer2000.github.io/)**  
 
 The website will feature:
 - My publications
