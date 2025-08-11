@@ -1,4 +1,4 @@
-# M. Faizan Omer — Portfolio
+
 
 Welcome to my GitHub portfolio repository!  
 This repository powers my [personal website]( https://m-faizanomer2000.github.io/) — a central place to explore my academic, research, and professional journey. I’ll be updating it soon, so thanks for your patience!
