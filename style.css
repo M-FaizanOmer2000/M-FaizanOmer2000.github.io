@@ -1,61 +1,85 @@
 html {
     background-color: #fefefe;
-    scroll-padding-top: 70px;
-}
-
-body p, li {
-    color: #454545;
-    font-size: 20px;
+    scroll-padding-top: 80px; /* Adjusted for larger header */
 }
 
 body {
-    font-family: Palatino, "EB Garamond", Georgia, "Times New Roman", serif;
-    padding-top: 50px;
-    padding-bottom: 0px;
+    font-family: 'EB Garamond', Palatino, Georgia, 'Times New Roman', serif;
+    color: #454545;
+    padding-top: 70px; /* Adjusted to account for fixed header height */
+    padding-bottom: 20px;
+    line-height: 1.6;
 }
 
-.row .no-underline-links a {
-    text-decoration: none !important; /* Forces no underline */
+p, li {
+    font-size: 1.125rem; /* 18px equivalent, more responsive than fixed 20px */
 }
 
-.row:not(#publications, #projects) a {
+.container {
+    max-width: 960px; /* Optimized for readability */
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar {
+    background-color: #8b5dff; /* Consistent with original fixed-header color */
+    padding: 0.5rem 0;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    font-size: calc(0.75rem + 0.5vw); /* Responsive font size */
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e0d4ff; /* Lighter shade for hover effect */
+}
+
+a {
+    color: #8b5dff;
     text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #563a9c; /* Consistent with original hover color */
+}
+
+.no-underline-links a {
+    text-decoration: none !important;
 }
 
 .image-link {
     text-decoration: none !important;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    /* Center the DIV horizontally */
+hr {
+    border-color: #e0e0e0;
+    opacity: 0.5;
 }
 
-.fixed-header, .fixed-footer {
-    width: 100%;
-    position: fixed;
-    background: rgb(139, 93, 255);
-    padding: 7px 0;
-    color: #fff;
-    font-size: calc(6px + 0.78125vw);
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-weight: 600;
 }
 
-.fixed-header {
-    top: 0;
-}
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 7px 1.7vw;
-    display: inline-block;
-}
+    .navbar-nav .nav-link {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
 
-a {
-    color: rgb(139, 93, 255);
-}
-
-a:hover {
-    color: rgb(86, 58, 156);
+    p, li {
+        font-size: 1rem; /* Slightly smaller for mobile */
+    }
 }
