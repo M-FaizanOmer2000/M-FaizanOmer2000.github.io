@@ -46,7 +46,7 @@ I am **M. Faizan Omer**, an **MS Scholar** at **NUST MCS** specializing in **mul
 ## 🌐 Portfolio Website
 
 This repository will serve as the source code for my portfolio website:  
-➡ **[https://YOUR_GITHUB_USERNAME.github.io](https://YOUR_GITHUB_USERNAME.github.io)**  
+➡ **[https://YOUR_GITHUB_USERNAME.github.io]( https://m-faizanomer2000.github.io/)**  
 
 The website will feature:
 - My publications
